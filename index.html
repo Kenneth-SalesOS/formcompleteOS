@@ -80,7 +80,13 @@
         <label for="psw"><strong>Password</strong></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
       </div>
-      <button type="submit"><strong>SIGN UP</strong></button>
+     <button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.google.com";
+    };
+</script>
       <div class="container" style="background-color: #eee">
         <label style="padding-left: 15px">
         <input type="checkbox"  checked="checked" name="remember"> Remember me
